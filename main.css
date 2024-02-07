@@ -24,15 +24,17 @@ form {
     background-color: #c8d6e5;
     padding: 24px 0;
     text-align: center;
+    display: none;
 }
 
 input, button {
     padding: 8px;
+    border-radius: 4px;
+    border: none;
 }
 
 button {
-    background-color: #009432;
-    border: none;
+    background-color: #009432;    
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
